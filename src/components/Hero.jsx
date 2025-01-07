@@ -24,8 +24,6 @@ const Hero = () => {
     const { clientX, clientY } = e
     x.set(clientX)
     y.set(clientY)
-
-    // console.log(clientX, clientY, x, y)
   }
 
   const handleMouseEnter = () => {
@@ -34,8 +32,6 @@ const Hero = () => {
       innerHeight: window.innerHeight,
     })
     setMouseMove(true)
-
-    console.log(innerWidth, innerHeight)
   }
 
   const { innerWidth, innerHeight } = windowOffset
@@ -86,7 +82,7 @@ const Hero = () => {
           <h1 className="text-center text-5xl font-bold tracking-wider text-gray-500 sm:text-2xl">
             My name is Diana Ichmoukhametov &
           </h1>
-          <p className="text-2xl tracking-wider text-gray-700">
+          <p className="text-5xl tracking-wider text-gray-700">
             I'm full stack web developer
           </p>
         </div>
