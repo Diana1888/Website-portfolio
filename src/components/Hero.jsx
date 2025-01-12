@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
-import { heroIcons } from '@/assets'
+import GithubLineIcon from 'remixicon-react/GithubLineIcon'
+import LinkedinBoxLineIcon from 'remixicon-react/LinkedinBoxLineIcon'
 import {
   useMotionValue,
   useTransform,
@@ -87,15 +88,18 @@ const Hero = () => {
           </p>
         </div>
         <div className="mt-8 flex justify-center gap-x-10 text-3xl text-yellow-600 sm:text-2xl">
-          {heroIcons.map((icon, i) => (
-            <a
-              href="#"
-              key={i}
-              className="rounded-lg hover:bg-red-400 hover:text-white transition-colors"
-            >
-              {icon}
-            </a>
-          ))}
+          <a
+            href="https://github.com/Diana1888"
+            className="rounded-lg hover:bg-red-400 hover:text-white transition-colors"
+          >
+            <GithubLineIcon />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/diana-ichmoukhametov/"
+            className="rounded-lg hover:bg-red-400 hover:text-white transition-colors"
+          >
+            <LinkedinBoxLineIcon />
+          </a>
         </div>
         <a
           href="#"
