@@ -1,10 +1,16 @@
 'use client'
 
+import { useRef, useState } from 'react'
 import Heading from './sub/Heading'
 import Project from './sub/Project'
 import { projectsButton, projectsData } from '@/assets'
 
 const Projects = () => {
+  const [tech, setTech] = useState('All')
+  const [index, setIndex] = useState(0)
+  const prevIndex = useRef(0)
+  const buttonsRef = useRef([])
+
   return (
     <div className="min-h-screen py-20 px-80">
       <Heading text={'Projects'} />
@@ -18,9 +24,12 @@ const Projects = () => {
           </button>
         ))}
       </div>
-
       <div className="flex flex-wrap items-center justify-center gap-5 ">
-        <Project />
+        {projectsData.map((data, i) => (
+          <div key={`id-${i}`}>
+            <Project data={data} index={i} />
+          </div>
+        ))}
       </div>
     </div>
   )
