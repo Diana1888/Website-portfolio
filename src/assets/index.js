@@ -117,3 +117,75 @@ export const skillsData = [
     icon: '/skills/github.png',
   },
 ];
+
+// Projects
+export const projectsData = [
+  {
+    name: 'Weather.app',
+    desc: 'A weather application',
+    url: '/public/projects/weatherApp.png',
+    tech: ['ReactJS', 'CSS'],
+  },
+  {
+    name: 'Portfolio',
+    desc: 'Portfolio website',
+    url: '/public/projects/weatherApp.png',
+    tech: ['NextJS', 'TailwindCSS', 'FramerMotion'],
+  },
+  {
+    name: 'Weather.app',
+    desc: 'A weather application',
+    url: '/public/projects/weatherApp.png',
+    tech: ['ReactJS', 'CSS'],
+  },
+  {
+    name: 'Weather.app',
+    desc: 'A weather application',
+    url: '/public/projects/weatherApp.png',
+    tech: ['ReactJS', 'CSS'],
+  },
+  {
+    name: 'Weather.app',
+    desc: 'A weather application',
+    url: '/public/projects/weatherApp.png',
+    tech: ['ReactJS', 'CSS'],
+  },
+  {
+    name: 'Weather.app',
+    desc: 'A weather application',
+    url: '/public/projects/weatherApp.png',
+    tech: ['ReactJS', 'CSS'],
+  },
+  {
+    name: 'Weather.app',
+    desc: 'A weather application',
+    url: '/public/projects/weatherApp.png',
+    tech: ['ReactJS', 'CSS'],
+  },
+  {
+    name: 'Weather.app',
+    desc: 'A weather application',
+    url: '/public/projects/weatherApp.png',
+    tech: ['ReactJS', 'CSS'],
+  },
+  {
+    name: 'Weather.app',
+    desc: 'A weather application',
+    url: '/public/projects/weatherApp.png',
+    tech: ['ReactJS', 'CSS'],
+  },
+
+];
+
+export const projectsButton = [
+  'All',
+  'Figma',
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'ReactJS',
+  'TailwindCSS',
+  'NextJS',
+  'FramerMotion',
+  'MUI'
+];
