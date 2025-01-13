@@ -129,7 +129,7 @@ export const projectsData = [
     url: '/projects/weatherApp.png',
     tech: ['NextJS', 'TailwindCSS', 'FramerMotion'],
     repo: 'https://github.com/Diana1888',
-    live: 'https://diana1888.github.io/Weather-react-app/'
+    live: ''
   },
   {
     name: 'Weather.app',
