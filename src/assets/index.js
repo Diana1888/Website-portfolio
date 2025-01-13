@@ -202,3 +202,50 @@ export const projectsButton = [
   'FramerMotion',
   'MUI'
 ];
+
+
+// Navbar
+import CopyrightLineIcon from 'remixicon-react/CopyrightLineIcon';
+
+export const copyRightIcon = <CopyrightLineIcon />;
+
+import Home5LineIcon from 'remixicon-react/Home5LineIcon';
+import UserLineIcon from 'remixicon-react/UserLineIcon';
+import HistoryLineIcon from 'remixicon-react/HistoryLineIcon';
+import BriefcaseLineIcon from 'remixicon-react/BriefcaseLineIcon';
+import ProjectorLineIcon from 'remixicon-react/ProjectorLineIcon';
+import ContactsBook2LineIcon from 'remixicon-react/ContactsBook2LineIcon';
+
+export const navbarData = [
+  {
+    id: 'home',
+    name: 'Home',
+    icon: <Home5LineIcon />,
+  },
+  {
+    id: 'about',
+    name: 'About',
+    icon: <UserLineIcon />,
+  },
+  {
+    id: 'experience',
+    name: 'MyRoad',
+    icon: <HistoryLineIcon />,
+  },
+  {
+    id: 'skills',
+    name: 'Skills',
+    icon: <BriefcaseLineIcon />,
+  },
+  {
+    id: 'projects',
+    name: 'Projects',
+    icon: <ProjectorLineIcon />,
+  },
+  {
+    id: 'contact',
+    name: 'Contact',
+    icon: <ContactsBook2LineIcon />,
+  },
+];
+
