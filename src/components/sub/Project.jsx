@@ -12,13 +12,17 @@ const Project = ({ data, index }) => {
         height={400}
         className="rounded-lg opacity-70"
       />
-      <div className="hidden absolute top-0 w-full h-full flex flex-col items-center justify-center gap-y-2 bg-white/95 p-6 rounded-lg ">
+      <div className="absolute top-0 w-full h-full flex flex-col items-center justify-center gap-y-2 bg-white/95 p-6 rounded-lg ">
         <h2 className="text-lg font-bold tracking-wide text-gray-500">
           {data.name}
         </h2>
         <p className="text-justify text-gray-500 first-letter:pl-2">
           {data.desc}
         </p>
+        <div className="mt-10 flex justify-center gap-x-10 text-xl text-red-500">
+          <a href={data.repo}>Repo</a>
+          <a href={data.live}>Live</a>
+        </div>
       </div>
     </div>
   )

@@ -120,54 +120,72 @@ export const projectsData = [
     desc: 'A weather application',
     url: '/projects/weatherApp.png',
     tech: ['ReactJS', 'CSS'],
+    repo: 'https://github.com/Diana1888',
+    live: 'https://diana1888.github.io/Weather-react-app/'
   },
   {
     name: 'Portfolio',
     desc: 'Portfolio website',
     url: '/projects/weatherApp.png',
     tech: ['NextJS', 'TailwindCSS', 'FramerMotion'],
+    repo: 'https://github.com/Diana1888',
+    live: 'https://diana1888.github.io/Weather-react-app/'
   },
   {
     name: 'Weather.app',
     desc: 'A weather application',
     url: '/projects/weatherApp.png',
     tech: ['ReactJS', 'CSS'],
+    repo: 'https://github.com/Diana1888',
+    live: 'https://diana1888.github.io/Weather-react-app/'
   },
   {
     name: 'Weather.app',
     desc: 'A weather application',
     url: '/projects/weatherApp.png',
     tech: ['ReactJS', 'CSS'],
+    repo: 'https://github.com/Diana1888',
+    live: 'https://diana1888.github.io/Weather-react-app/'
   },
   {
     name: 'Weather.app',
     desc: 'A weather application',
     url: '/projects/weatherApp.png',
     tech: ['ReactJS', 'CSS'],
+    repo: 'https://github.com/Diana1888',
+    live: 'https://diana1888.github.io/Weather-react-app/'
   },
   {
     name: 'Weather.app',
     desc: 'A weather application',
     url: '/projects/weatherApp.png',
     tech: ['ReactJS', 'CSS'],
+    repo: 'https://github.com/Diana1888',
+    live: 'https://diana1888.github.io/Weather-react-app/'
   },
   {
     name: 'Weather.app',
     desc: 'A weather application',
     url: '/projects/weatherApp.png',
     tech: ['ReactJS', 'CSS'],
+    repo: 'https://github.com/Diana1888',
+    live: 'https://diana1888.github.io/Weather-react-app/'
   },
   {
     name: 'Weather.app',
     desc: 'A weather application',
     url: '/projects/weatherApp.png',
     tech: ['ReactJS', 'CSS'],
+    repo: 'https://github.com/Diana1888',
+    live: 'https://diana1888.github.io/Weather-react-app/'
   },
   {
     name: 'Weather.app',
     desc: 'A weather application',
     url: '/projects/weatherApp.png',
     tech: ['ReactJS', 'CSS'],
+    repo: 'https://github.com/Diana1888',
+    live: 'https://diana1888.github.io/Weather-react-app/'
   },
 
 ];
